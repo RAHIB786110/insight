@@ -5,12 +5,12 @@
         grid-template-columns:12fr;
     }
     header {
-        grid-row: 2;
+        grid-row: 1;
         
         
     }
     nav {
-        grid-row: 1;
+        grid-row: 2;
         grid-column: 1/2;
         
     }
@@ -23,11 +23,15 @@
        
     }
 }
-
 header{
     display: flex;
+    display: flex;
     justify-content: space-between;
-    background-color: gray;   
+    background-color: gray; 
+}
+.header3{
+    
+      
 }
 header div{
    display: flex;
@@ -138,12 +142,7 @@ li {
     border-radius: 10px;
     color: white;
 }
-.suzuki{
-    display: flex;
-    padding: 30px;
-    gap: 20px;
-    
-}
+
 .button{
     display: flex;
     gap: 30px;
