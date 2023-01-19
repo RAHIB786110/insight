@@ -1,8 +1,10 @@
+
 @media screen and (orientation:portrait) {
             
     body {
         display: grid;
         grid-template-columns:12fr;
+        
     }
     header {
         grid-row: 1;
@@ -54,9 +56,12 @@ li {
     position: absolute;
     text-align: center;
     margin-top: -170px;
-    background-color: rgba(0, 0, 0, 0.425);
+    
     color: white;
     width: 100%;
+    
+    
+    
 }
 .content button{
     background:none;
