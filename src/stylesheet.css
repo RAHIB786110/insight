@@ -34,6 +34,15 @@ header{
     
       
 }
+nav ul li{
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    
+}
+nav ul li:hover{
+    color: black;
+}
 header div{
    display: flex;
    gap: 20px;
@@ -41,13 +50,7 @@ header div{
    
    
 }
-.nav{
-    display: flex;
-    background-color:brown;
-    color: white;
-    justify-content: space-between;
-    background-size: 100%;
-}
+
 
 li {
     color: white;
