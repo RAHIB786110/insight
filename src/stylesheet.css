@@ -27,8 +27,7 @@
 }
 header{
     display: flex;
-    display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     background-color: gray; 
 }
 .header3{
@@ -39,7 +38,7 @@ header div{
    display: flex;
    gap: 20px;
    font-size: 20px;
-   padding: 20px;
+   
    
 }
 .nav{
@@ -47,6 +46,7 @@ header div{
     background-color:brown;
     color: white;
     justify-content: space-between;
+    background-size: 100%;
 }
 
 li {
